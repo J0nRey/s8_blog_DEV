@@ -1,0 +1,252 @@
+body {
+  background-color: #A3A3A3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-header {
+  padding: 0px 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #ffff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+  .container-header #btn-menu {
+    display: none;
+  }
+  .container-header .container-menu {
+    display: none;
+  }
+  .container-header .hamburger {
+    display: none;
+  }
+  .container-header .links-movil {
+    display: none;
+  }
+  .container-header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 0px;
+  }
+  .container-header .logo .img {
+    width: 50px;
+  }
+  .container-header .logo .img img {
+    max-width: 100%;
+  }
+  .container-header .logo input {
+    position: relative;
+    left: 20px;
+    border: 1px solid #A3A3A3;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .container-header .logo .src {
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: -17px;
+    background: #ffff;
+  }
+  .container-header .logo .src:hover {
+    background-color: #EBECFC;
+  }
+  .container-header .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-header .links .post {
+    width: 113px;
+    height: 40px;
+    margin: 0;
+    background-color: #ffff;
+    color: #3B49DF;
+    border: 2px solid #3B49DF;
+    border-radius: 5px;
+  }
+  .container-header .links .post:hover {
+    background-color: #3B49DF;
+    color: #ffff;
+    text-decoration: underline;
+  }
+  .container-header .links .notification {
+    border-radius: 5px;
+    margin: 0px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35px;
+    height: 35px;
+  }
+  .container-header .links .notification img {
+    max-width: 100%;
+  }
+  .container-header .links .notification:hover {
+    background-color: #EBECFC;
+  }
+  .container-header .links .avatar {
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  .container-header .links .avatar .img-avatar {
+    width: 35px;
+    height: 35px;
+  }
+  .container-header .links .avatar .img-avatar img {
+    max-width: 100%;
+  }
+  .container-header .links .avatar:hover {
+    background: #EBECFC;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-header .links {
+    display: none;
+  }
+  .container-header .logo {
+    display: none;
+  }
+  .container-header #btn-menu {
+    display: none;
+  }
+  .container-header .container-menu {
+    display: none;
+  }
+  .container-header .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-header .hamburger .cube {
+    width: 50px;
+  }
+  .container-header .hamburger .cube img {
+    max-width: 100%;
+  }
+  .container-header .hamburger .img {
+    width: 50px;
+  }
+  .container-header .hamburger .img img {
+    max-width: 100%;
+  }
+  .container-header .links-movil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-header .links-movil .post {
+    width: 113px;
+    height: 40px;
+    margin: 0;
+    background-color: #ffff;
+    color: #3B49DF;
+    border: 2px solid #3B49DF;
+    border-radius: 5px;
+  }
+  .container-header .links-movil .post:hover {
+    background-color: #3B49DF;
+    color: #ffff;
+    text-decoration: underline;
+  }
+  .container-header .links-movil .notification {
+    border-radius: 5px;
+    margin: 0px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35px;
+    height: 35px;
+  }
+  .container-header .links-movil .notification img {
+    max-width: 100%;
+  }
+  .container-header .links-movil .notification:hover {
+    background-color: #EBECFC;
+  }
+  .container-header .links-movil .avatar {
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  .container-header .links-movil .avatar .img-avatar {
+    width: 35px;
+    height: 35px;
+  }
+  .container-header .links-movil .avatar .img-avatar img {
+    max-width: 100%;
+  }
+  .container-header .links-movil .avatar:hover {
+    background: #EBECFC;
+  }
+}
+/*# sourceMappingURL=style.css.map */
